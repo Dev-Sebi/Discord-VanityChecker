@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "106e6a56-6235-4ec0-900e-679ffa0aa105": {
+      "ProjectGuid": "106e6a56-6235-4ec0-900e-679ffa0aa105",
+      "DisplayName": "VanityChecker",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

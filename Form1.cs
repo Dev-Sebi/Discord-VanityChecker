@@ -12,6 +12,7 @@ namespace VanityChecker
         public Form1()
         {
             InitializeComponent();
+            MessageBox.Show("This version has no RateLimit control, please be carefull to not Abuse the Discord API!", "Error!", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -36,7 +37,7 @@ namespace VanityChecker
                 {
                     try
                     {
-                        WebRequest request = WebRequest.Create("https://discord.com/api/v8/invites/" + s);
+                        WebRequest request = WebRequest.Create("https://discord.com/api/v9/invites/" + s);
                         WebResponse response = request.GetResponse();
                         request.Method = "GET";
                         response.Close();
