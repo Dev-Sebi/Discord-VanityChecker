@@ -35,6 +35,10 @@ namespace VanityChecker
                 string[] vanitys = all.Split('\n');
                 foreach (string s in vanitys)
                 {
+                    if(s.StartsWith("https://discord.gg/"))
+                    {
+                        s.Replace("https://discord.gg/", "");
+                    }
                     try
                     {
                         WebRequest request = WebRequest.Create("https://discord.com/api/v9/invites/" + s);

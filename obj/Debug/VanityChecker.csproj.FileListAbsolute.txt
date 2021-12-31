@@ -1,0 +1,11 @@
+F:\VanityChecker\Discord-VanityChecker\bin\Debug\VanityChecker.exe.config
+F:\VanityChecker\Discord-VanityChecker\bin\Debug\VanityChecker.exe
+F:\VanityChecker\Discord-VanityChecker\bin\Debug\VanityChecker.pdb
+F:\VanityChecker\Discord-VanityChecker\obj\Debug\VanityChecker.csproj.AssemblyReference.cache
+F:\VanityChecker\Discord-VanityChecker\obj\Debug\VanityChecker.csproj.SuggestedBindingRedirects.cache
+F:\VanityChecker\Discord-VanityChecker\obj\Debug\VanityChecker.Form1.resources
+F:\VanityChecker\Discord-VanityChecker\obj\Debug\VanityChecker.Properties.Resources.resources
+F:\VanityChecker\Discord-VanityChecker\obj\Debug\VanityChecker.csproj.GenerateResource.cache
+F:\VanityChecker\Discord-VanityChecker\obj\Debug\VanityChecker.csproj.CoreCompileInputs.cache
+F:\VanityChecker\Discord-VanityChecker\obj\Debug\VanityChecker.exe
+F:\VanityChecker\Discord-VanityChecker\obj\Debug\VanityChecker.pdb
