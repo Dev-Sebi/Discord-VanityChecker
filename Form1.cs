@@ -33,11 +33,20 @@ namespace VanityChecker
                 String results_invalid = "";
                 String all = input.Text;
                 string[] vanitys = all.Split('\n');
+                string tmp = "";
                 foreach (string s in vanitys)
                 {
                     if(s.StartsWith("https://discord.gg/"))
                     {
-                        s.Replace("https://discord.gg/", "");
+                        tmp = s.Replace("https://discord.gg/", "");
+                    }
+                    if (s.StartsWith("https://discord.com/invite/"))
+                    {
+                        tmp = s.Replace("https://discord.com/invite/", "");
+                    }
+                    else
+                    {
+                        tmp = s;
                     }
                     try
                     {
